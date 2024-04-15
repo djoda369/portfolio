@@ -1,0 +1,34 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+  section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    .contact_section {
+      display: flex;
+      flex-direction: column;
+      gap: 1.6rem;
+      div {
+        display: flex;
+        gap: 1.6rem;
+      }
+    }
+  }
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1.6rem;
+  li {
+    a {
+      svg {
+        font-size: 30px;
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+$primary: #4dadff;
+$secondary: #4d85ff;
+$gradient: #4d85ff;
+$black: #1c1c1f;
+$black75: rgba(28, 28, 31, 0.75);
+$black50: rgba(28, 28, 31, 0.5);
+$black25: rgba(28, 28, 31, 0.25);
+$black10: rgba(28, 28, 31, 0.1);
+$black5: rgba(28, 28, 31, 0.05);
+$error: #ff554d;
+
+.primary {
+  color: $primary;
+}
+
+.secondary {
+  color: $secondary;
+}
+
+.inactive {
+  color: $black75;
+}
+
+.btn_container {
+  background-color: $black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+  svg {
+    color: #fff;
+    font-size: 24px;
+  }
+  &:hover {
+    background-color: $black75;
+  }
+}
+
+.text {
+  color: $black75;
+  font-size: 21px;
+  font-family: "inter";
+}
+
+.h1 {
+  font-size: 119px;
+  font-weight: 700;
+}
+.h2 {
+  font-size: 84px;
+  font-weight: 700;
+}
+.h3 {
+  font-size: 59px;
+  font-weight: 400;
+}
+.h4 {
+  font-size: 42px;
+  font-weight: 700;
+}
+.h5 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.h6 {
+  font-size: 21px;
+  font-weight: 400;
+  color: $black75;
+}
+.h7 {
+  font-size: 15;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1596px;
+  margin: 0 auto;
+  background-color: #fff;
+  @media (max-width: 1919px) {
+    max-width: 83.135%;
+  }
+  @media (max-width: 1500px) {
+    max-width: 90%;
+  }
+}
