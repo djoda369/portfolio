@@ -1,0 +1,25 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  &__skills {
+    ul {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    li {
+    }
+  }
+}

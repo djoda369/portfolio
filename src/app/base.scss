@@ -40,7 +40,7 @@ $error: #ff554d;
 
 .text {
   color: $black75;
-  font-size: 21px;
+  font-size: 24px;
   font-family: "inter";
 }
 
@@ -51,10 +51,11 @@ $error: #ff554d;
 .h2 {
   font-size: 84px;
   font-weight: 700;
+  line-height: 1.2em;
 }
 .h3 {
   font-size: 59px;
-  font-weight: 400;
+  font-weight: 700;
 }
 .h4 {
   font-size: 42px;

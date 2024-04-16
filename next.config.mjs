@@ -9,6 +9,9 @@ const nextConfig = {
     includePaths: [path.join(__dirname, "styles")],
     prependData: `@import "./src/app/base.scss";`,
   },
+  images: {
+    domains: ["media.licdn.com"],
+  },
 };
 
 export default nextConfig;

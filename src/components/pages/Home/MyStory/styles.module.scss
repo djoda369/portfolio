@@ -1,0 +1,10 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+}
